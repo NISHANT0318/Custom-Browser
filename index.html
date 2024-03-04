@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Browser Tabs</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Custom Browser </h1>
+    <div id="tabs-container">
+        <ul id="tabs">
+            <li><span class="tab active" onclick="switchTab(0)">Tab 1</span><button class="close" onclick="closeTab(0)">x</button></li>
+            <li><span class="tab" onclick="createTab()">+</span></li>
+        </ul>
+        <div id="tab-content">
+            
+        </div>
+    </div>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
